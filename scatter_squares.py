@@ -35,17 +35,17 @@ import matplotlib.pyplot as plt
 # -------------------------------------------------------------------
 # Кубы
 
-# num1 = [2, 3, 4, 5, 6]
-# num2 = [x ** 3 for x in num1]
+num1 = [2, 3, 4, 5, 6]
+num2 = [x ** 3 for x in num1]
 
-# num1 = list(range(1, 5_001))
-# num2 = (x ** 3 for x in num1)
-#
-# plt.style.use('seaborn')
-# fig, ax = plt.subplots()
-# ax.scatter(num1, list(num2))
-#
-# plt.show()
+num1 = list(range(1, 5_001))
+num2 = (x ** 3 for x in num1)
+
+plt.style.use('seaborn')
+fig, ax = plt.subplots()
+ax.scatter(num1, list(num2))
+
+plt.show()
 
 
 
